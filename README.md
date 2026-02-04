@@ -1,31 +1,27 @@
-# Sparse Manifold Regulation (SMR)
+# 🧠 SMR++ — Sparse Manifold Regulation Framework
 
-Adaptive sparsity control in a diffusive probability field using PDE dynamics and feedback control.
-
-Sparse Manifold Regulation (SMR) is a high-fidelity numerical simulation demonstrating how continuous diffusion (entropy growth) can be actively counterbalanced using a Proportional-Integral (PI) controller to maintain a target sparsity ratio in a probability manifold.
-
-This project bridges:
-
-**Partial Differential Equations • Control Theory • Information Theory • Numerical Stability**
+**Adaptive Control of Continuous Representations for Stable Sparsity**
 
 ---
 
-## The system simulates:
+## Overview
 
-- A probability density undergoing continuous diffusion  
-- A dynamic threshold that suppresses mass to maintain silence  
-- A feedback controller that converges to a target sparsity ratio  
+SMR++ (Sparse Manifold Regulator Plus) treats sparsity as a **dynamical equilibrium** problem, rather than a static penalty.
 
-Result: a self-stabilizing sparse manifold.
+- Evolves a **continuous manifold** representation.
+- Uses **adaptive diffusion** for stability.
+- Regulates sparsity with **PI feedback control**.
+- Provides **entropy-based diagnostics** for convergence.
 
+## Algorithms Compared
 
-## Features
+| Method  | Description |
+|---------|------------|
+| SMR++   | Adaptive PDE + PI-controlled regulation |
+| SOFT    | Exponential soft thresholding |
+| HARD    | Deterministic hard cutoff |
+| NONE    | Diffusion only (baseline) |
 
-- Implicit PDE solver (unconditionally stable)
-- Real-time PI feedback control
-- Entropy energy monitoring
-- High-resolution manifold dynamics
-- Command-line parameterization
-- Automated convergence notification
-- Multi-panel analytics visualization
+---
+
 
