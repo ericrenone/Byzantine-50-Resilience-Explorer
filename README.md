@@ -1,4 +1,4 @@
-# 🧠 Sparse Manifold Regulation (SMR)
+# Sparse Manifold Regulation (SMR)
 
 Adaptive sparsity control in a diffusive probability field using PDE dynamics and feedback control.
 
