@@ -1,8 +1,6 @@
 # Byzantine-Resilience-Explorer
 
-A First-Principles approach to decentralized state synchronization. This project explores the intersection of **Q16.16 Fixed-Point Arithmetic**, **Geometric Byzantine Fault Tolerance**, and **Computational Density**.
-
-## (Core Philosophy)
+## Core
 Traditional AI scaling is hitting a "Thermal Wall" due to the wastefulness of IEEE-754 FP32 floating-point logic. This explorer proves that by moving to **Geometric Consensus** (Spatial Truth) and **Fixed-Point Hardware**, we can achieve higher node density and 85% energy reduction without losing model convergence.
 
 ---
