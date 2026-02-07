@@ -61,15 +61,6 @@ Results represent $\mu \pm \sigma$ across $N=5$ runs using simulated H100 hardwa
 
 ---
 
-## 📂 Repository Structure
-
-* `q16.Fixed-Point Byzantine-Resilient.py`: The core SovereignASIC emulation engine.
-* `FP32-vs.-Q16.16-Fixed-Point.py`: Energy and precision comparison suite.
-* `Byzantine Fault Simulation with Adaptive Manifold Tracking.py`: Visualizing high-dimensional node convergence.
-* `precision_comparison_test.py`: Unit tests for bit-perfect fixed-point operations.
-
----
-
 ## 🚀 Key Takeaways
 
 1.  **Energy Dominance:** Q16.16 logic is thermodynamically superior for high-throughput AI.
